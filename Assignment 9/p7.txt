@@ -1,0 +1,51 @@
+1) P Class : 
+The P in the P class stands for Polynomial Time. It is the collection of decision problems(problems with a “yes” or “no” answer) that can be solved by a deterministic machine in polynomial time. 
+
+*Features :-
+=>The solution to P problems is easy to find. 
+=>P is often a class of computational problems that are solvable and tractable. Tractable means that the problems can be solved in theory as well as in practice. But the problems that can be solved in theory but not in practice are known as intractable.
+=>This class contains many natural problems:
+
+*Example :-
+=>Calculating the greatest common divisor.
+=>Finding a maximum matching.
+=>Decision versions of linear programming.
+
+==================================================================================================================================
+
+2) NP Class :
+The NP in NP class stands for Non-deterministic Polynomial Time. It is the collection of decision problems that can be solved by a non-deterministic machine in polynomial time. 
+
+*Features :-
+=>The solutions of the NP class are hard to find since they are being solved by a non-deterministic machine but the solutions are easy to verify.
+=>Problems of NP can be verified by a Turing machine in polynomial time. 
+
+==================================================================================================================================
+
+3) NP-hard class :
+An NP-hard problem is at least as hard as the hardest problem in NP and it is a class of problems such that every problem in NP reduces to NP-hard.
+
+*Features :-
+=>All NP-hard problems are not in NP.
+=>It takes a long time to check them. This means if a solution for an NP-hard problem is given then it takes a long time to check whether it is right or not.
+=>A problem A is in NP-hard if, for every problem L in NP, there exists a polynomial-time reduction from L to A.
+
+*Example :-
+=>Halting problem.
+=>Qualified Boolean formulas.
+=>No Hamiltonian cycle.
+
+==================================================================================================================================
+
+4) NP-complete class
+A problem is NP-complete if it is both NP and NP-hard. NP-complete problems are the hard problems in NP.
+
+*Features :-
+=>NP-complete problems are special as any problem in NP class can be transformed or reduced into NP-complete problems in polynomial time.
+=>If one could solve an NP-complete problem in polynomial time, then one could also solve any NP problem in polynomial time.
+
+*Example :-
+=>Decision version of 0/1 Knapsack.
+=>Hamiltonian Cycle.
+=>Satisfiability.
+=>Vertex cover.
